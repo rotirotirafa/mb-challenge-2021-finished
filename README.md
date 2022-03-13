@@ -1,6 +1,8 @@
 # mb-test-api
 
-Serviço que disponibiliza variações de médias móveis simples: 20, 50 e 200 dias das moedas Bitcoin e Etherium que são listadas no Mercado Bitcoin.
+Esse teste foi solicitado como desafio para avaliar a capacidade técnica para atuar no time de desenvolvimento do Mercado Bitcoin.
+
+O objetivo consiste em disponibilizar um serviço que expõe variações de médias móveis simples: 20, 50 e 200 dias das moedas Bitcoin e Etherium que são listadas no Mercado Bitcoin.
 
 Arquitetura proposta
 ![Arquitetura](QueroSerMbArquiteturaProposta.png)
