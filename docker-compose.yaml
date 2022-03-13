@@ -1,0 +1,20 @@
+version: '3.7'
+services:
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    hostname: mongodb_con
+    environment:
+      - PUID=1000
+      - PGID=1000
+    ports:
+      - 27017:27017
+    restart: unless-stopped
+
+  mbapi:
+    build:
+      context: ./
+    ports:
+      - 5000:8001
+    links:
+      - mongodb

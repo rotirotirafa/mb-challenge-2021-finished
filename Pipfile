@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-pydantic = "*"
+flask-restful = "*"
+gunicorn = "*"
+pyjwt = "*"
+python-decouple = "*"
+decouple = "*"
+flask-apispec = "*"
+pytest = "*"
+pymongo = "*"
+pandas = "*"
+numpy = "*"
+pydantic = "*"
+python-crontab = "*"
+retrying = "*"
+flask-swagger = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
